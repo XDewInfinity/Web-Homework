@@ -1,0 +1,73 @@
+@import './identic/color';
+@import './identic/typography';
+@import './blocks/header';
+@import './blocks/promo';
+@import './identic/buttons';
+@import './blocks/works.scss';
+@import './blocks/services';
+@import './identic/mixins';
+@import './blocks/price';
+@import './identic/selects';
+@import './blocks/Q-A';
+@import './blocks/feedback';
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-family: Raleway;
+  }
+
+// .mainlink{
+//     // margin-top: 38px;
+//     background-color: white;
+//     display: inline-flex;
+//     height: 32px;
+//     padding: 4px 8px;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 8px;
+//     flex-shrink: 0;
+//     border-radius: 8px;
+//     border: 2px solid #000;
+//     position: absolute;
+//     top: 32px;
+//     left: 140px;
+//     // margin-bottom: 100px;
+// }
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    // margin-top: 40px;
+    // display: flex;
+    // justify-content: center;
+    // gap: 32px;
+}
+
+
+
+// .adaptive {
+//     max-width: 1440px;
+//     margin: 0 auto;
+//     .header__programmer{
+//         display: none;
+//     }
+// }
+
+// @media (max-width: 900px){
+//     .adaptive{
+//         max-width: 90%;
+//     }
+// }
+
+// @font-face {
+//     // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+//     font-family: "RalewayRegular"; 
+//     // адрес шрифта и тип 
+//     src: url("../fonts/RalewayRegular.ttf") format("truetype"); 
+//     font-style: normal; 
+//     font-weight: normal; 
+//     }

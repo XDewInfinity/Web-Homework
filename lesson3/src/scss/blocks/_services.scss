@@ -1,0 +1,29 @@
+.services{
+    padding: 120px 0px 120px 0px;
+    background-color: $black_main;
+    &__title{
+        margin: auto;
+        color: $white_main;
+    }
+    &__card-group{
+        margin-top: 80px;
+        display: flex;
+        gap: 28px;
+        &__card__title{
+            margin-top: 8px;
+        }
+        &__card__info{
+            margin-top: 16px;
+        }
+        &__card__price{
+            margin-top: 56px;
+        }
+        &__card__line{
+            margin-top: 56px;
+        }
+        // &__card:hover{
+        //     margin-top: -7px;
+        //     z-index: -3px;
+        // }
+    }
+}

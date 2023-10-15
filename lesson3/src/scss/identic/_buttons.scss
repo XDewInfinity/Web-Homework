@@ -1,0 +1,84 @@
+.btn{
+    font-family: Raleway;          
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    &__black{
+        color:white;
+        border-radius: 8px;
+        background: #181818;
+        border: 2px solid #181818;
+        display: flex;
+        padding: 15px 24px 17px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        .paragraph{
+            color: white;
+        }
+        cursor: pointer;
+    }
+    &__black:hover{
+        color: black;
+        background: rgba(193, 211, 241, 0.132);
+        .paragraph{
+            color: black;
+        }
+    }
+    &__white{
+        color:#181818;
+        border-radius: 8px;
+        border: 2px solid #181818;
+        background: white;
+        display: flex;
+        padding: 15px 24px 17px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+    }
+    &__white:hover{
+        color: white;
+        background: rgb(4, 4, 65);
+        .trig{
+            stroke: white;
+        }
+        .paragraph{
+            color: white;
+        }
+    }
+    &__tab__white{
+        display: flex;
+        padding: 4px 16px;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 10000px;
+        border: 1px solid #000;
+        background-color: white;
+        cursor: pointer;
+        &:hover{
+            color: $white_main;
+            background: $black_main;
+        }
+    }
+    &__tab__black{
+        display: flex;
+        padding: 4px 16px;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 10000px;
+        background: #181818;
+        border: 1px solid #000;
+        color: white;
+        cursor: pointer;
+    }
+
+}
+// .btn{
+
+// }
+
+// .btn_outlined{
+
+// }

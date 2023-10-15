@@ -1,0 +1,100 @@
+// вместо button circle создать новый шаблон для кнопочек (tab)
+.btn-container__tabs{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 120px;
+}
+
+.works{
+margin-bottom: 120px;
+&__container-img{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+    // box-sizing: border-box;
+    row-gap: 40px;
+    // &1{
+    //     width: 1160px;
+    //     height: 460px;
+    //     border-radius: 20px;
+    //     border: 1px solid #DBDBDB;
+    //     background: url(../img/png1.png), lightgray 0px -1.579px / 100% 139.817% no-repeat;
+    // }
+    // &2{
+    //     width: 560px;
+    //     height: 400px;
+    //     border-radius: 20px;
+    //     border: 1px solid #DBDBDB;
+    //     background: url(../img/png2.png), lightgray -73px -59.89px / 146.25% 126.945% no-repeat;
+    // }
+    // &3{
+    //     width: 560px;
+    //     height: 400px;
+    //     border-radius: 20px;
+    //     border: 1px solid #DBDBDB;
+    //     background: url(../img/png3.png), lightgray 4px 8px / 98.571% 96% no-repeat, #151515;
+    // }
+    // &4{
+    //     width: 1160px;
+    //     height: 544px;
+    //     border-radius: 20px;
+    //     border: 1px solid #DBDBDB;
+    //     background: url(../img/png4.png), lightgray 50% / cover no-repeat, #181818;
+    }
+    &__developer-info{
+        display: flex;
+        justify-content: center;
+        width: 997px;
+        height: 560px;
+        flex-shrink: 0;
+        margin: auto;
+        margin-top: 120px;
+        gap: 40px;
+        &__gigachad{
+            width: 400px;
+            height: 560px;
+            flex-shrink: 0;
+            border-radius: 24px;
+            margin-left: 73px;
+            // background: url(), lightgray 50% / cover no-repeat;
+        }
+        &__textbox{
+            display: flex;
+            flex-direction: column;
+        }
+        &__title{
+            margin-top: 80px;
+        }
+        &__descr{
+            margin-top: 24px;
+        }
+        &__box-group{
+            margin-top: 64px;
+            display: flex;
+            flex-direction: row;
+            // justify-content: space-between;
+            gap: 64px;
+        }
+    }
+    // &__box1{
+
+    // }
+}
+
+
+.box1{
+display: flex;
+justify-content: space-between; // поменять на space between
+gap: 40px;
+}
+
+.box2{
+    display: flex;
+    gap: 40px;
+}

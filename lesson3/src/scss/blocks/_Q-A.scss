@@ -1,0 +1,26 @@
+.Q-A{
+    padding: 120px 0px 120px 0px;
+    background-color: $black_main;
+    &__title{
+        color: $white_main;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    &__question{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 32px 40px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        .paragraph-line{
+            color: $black_main;
+        }
+    }
+}
